@@ -1,0 +1,23 @@
+meta {
+  name: Weather for a city
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/weather?city=Toronto
+  body: none
+  auth: none
+}
+
+params:query {
+  city: Toronto
+}
+
+assert {
+  res.status: eq 200
+}
+
+docs {
+  An example to copy. Add the other requests from the assignment page to this collection.
+}

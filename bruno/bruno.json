@@ -1,0 +1,6 @@
+{
+  "version": "1",
+  "name": "Assignment 1 City Weather API",
+  "type": "collection",
+  "ignore": ["node_modules", ".git"]
+}
